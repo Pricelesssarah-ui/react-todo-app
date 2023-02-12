@@ -1,3 +1,6 @@
+body {
+  background-color: black;
+}
 .App {
   min-height: 100vh;
   display: flex;
@@ -14,7 +17,7 @@
   align-items: center;
   font-size: 20px;
   color: white;
-  background-color: black;
+ 
 }
 
 .todoForm {
