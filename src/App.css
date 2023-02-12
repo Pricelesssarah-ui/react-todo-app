@@ -15,13 +15,12 @@
   font-size: 20px;
   color: white;
   background-color: black;
-  box-shadow: 3px 5px 2px rgb(83, 73, 73);
 }
 
 .todoForm {
   display: flex;
   justify-content: space-around;
-  width: 450px;
+  width: 400px;
 }
 
 input {
@@ -37,6 +36,8 @@ button {
   padding: 10px;
   border-radius: 20px;
   margin: 0 5px;
+  color: white;
+  background-color: orangered;
 }
 
 .todos {
@@ -47,11 +48,11 @@ button {
 
 .todoList {
   border-radius: 50px;
-  margin: 10px 0;
-  background: rgb(79, 53, 82);
+  margin: 20px 0;
+  background: rgb(70, 64, 64);
   padding: 10px 20px;
   display: flex;
-  width: 450px;
+  width: 400px;
   align-items: center;
 }
 
@@ -59,3 +60,25 @@ button {
   flex: 1;
 }
 
+
+
+
+
+@media (max-width: 600px) {
+  .App {
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+ 
+  .todoForm {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+  }
+  
+  .todoList {
+    width: 300px;
+  }
+  
+}
